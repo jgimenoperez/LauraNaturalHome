@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "titulo": "Cuestionario SEO y Contenidos",
+    "marca": "Laura's Natural Home - Diseño de Interiores",
+    "generado_por": "NaranjaIT"
+  },
+  "informacion_general": {
+    "nombre_negocio": "Laura Natural Home",
+    "propuesta_valor": "Acompañamiento al cliente en todo momento, detalles personalizados y alta calidad en cada proyecto",
+    "experiencia_anos": 6
+  },
+  "ubicacion_y_alcance": {
+    "zona_principal": "Valencia",
+    "alcance_geografico": "Abierto a trabajar en más zonas a nivel nacional o internacional",
+    "consultoria_online": true
+  },
+  "servicios_principales": {
+    "servicios": [
+      "Decoración de interiores",
+      "Home Staging",
+      "Asesorías"
+    ],
+    "tipo_proyecto_principal": "Diseño residencial (casas y apartamentos)",
+    "servicios_complementarios": null
+  },
+  "publico_objetivo": {
+    "edad_aproximada": "Entre 35 y 55 años",
+    "tipo_cliente": [
+      "Particular",
+      "Empresa"
+    ],
+    "poder_adquisitivo": [
+      "Medio",
+      "Alto"
+    ],
+    "problema_que_resuelve": "Organización del hogar, mejora del bienestar, aumento de la comodidad y funcionalidad de los espacios"
+  },
+  "palabras_clave_seo": [
+    "Decoración de interiores en Valencia",
+    "Decoración mediterránea en Valencia",
+    "Home Staging en Valencia",
+    "Asesorías de decoración en Valencia",
+    "Proyectos de decoración mediterránea en Valencia"
+  ],
+  "portafolio_y_proyectos": {
+    "proyectos_completados_aproximados": 90,
+    "dispone_imagenes": true,
+    "seccion_portafolio": true,
+    "mejores_proyectos": [
+      "Estudio fotográfico",
+      "Casa en un pueblo",
+      "Vivienda para alquiler"
+    ]
+  },
+  "testimonios_y_social_proof": {
+    "testimonios_clientes": true,
+    "redes_sociales": [
+      "Instagram"
+    ],
+    "vincular_redes_en_web": true
+  },
+  "funcionalidades_necesarias": {
+    "formularios_y_funcionalidades": {
+      "formulario_contacto": true,
+      "cotizacion_presupuesto": true,
+      "reserva_consulta": true,
+      "blog": true,
+      "newsletter": true,
+      "ecommerce": true
+    },
+    "otras_funcionalidades": null
+  },
+  "contenidos_principales_web": {
+    "paginas": [
+      "Inicio",
+      "Sobre mí / Quién soy",
+      "Servicios",
+      "Portafolio",
+      "Blog",
+      "Contacto"
+    ],
+    "sobre_mi": {
+      "historia_profesional": null,
+      "inspiracion": null,
+      "estilo_diseno": null,
+      "valores": null
+    }
+  },
+  "objetivos_y_conversiones": {
+    "objetivo_principal": "Generar contactos y leads",
+    "objetivo_secundario": null
+  },
+  "firma": {
+    "empresa": "NaranjaIT",
+    "especialidad": "Desarrollo Web, SEO e IA",
+    "web": "naranjait.es"
+  }
+}
