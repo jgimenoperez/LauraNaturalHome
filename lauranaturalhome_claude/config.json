@@ -1,0 +1,58 @@
+{
+  "site": {
+    "title": "Laura's Natural Home",
+    "description": "Diseño de interiores personalizado en Valencia",
+    "url": "https://lauranaturalhome.es",
+    "language": "es"
+  },
+  "business": {
+    "name": "Laura's Natural Home",
+    "email": "info@lauranaturalhome.es",
+    "phone": "+34 600 000 000",
+    "location": "Valencia, España",
+    "yearsExperience": 6,
+    "projectsCompleted": 90,
+    "instagram": "https://instagram.com/lauranaturalhome",
+    "facebook": "https://facebook.com/lauranaturalhome"
+  },
+  "colors": {
+    "primary": "#8B7355",
+    "secondary": "#D4C5B9",
+    "accent": "#A8926A",
+    "dark": "#2C2C2C",
+    "light": "#F5F3F0",
+    "success": "#6B8E71",
+    "text": "#3C3C3C"
+  },
+  "services": [
+    {
+      "id": "decoracion",
+      "name": "Decoración de Interiores",
+      "description": "Proyecto integral de diseño",
+      "price": "A consultar"
+    },
+    {
+      "id": "homestaging",
+      "name": "Home Staging",
+      "description": "Preparación de propiedad para venta o alquiler",
+      "price": "Desde 800€"
+    },
+    {
+      "id": "asesoria",
+      "name": "Asesorías de Diseño",
+      "description": "Consultoría personalizada online o presencial",
+      "price": "150€ - 350€"
+    }
+  ],
+  "seo": {
+    "keywords": [
+      "Decoración de interiores en Valencia",
+      "Decoración mediterránea en Valencia",
+      "Home Staging en Valencia",
+      "Asesorías de decoración en Valencia",
+      "Proyectos de decoración mediterránea"
+    ],
+    "ogImage": "https://lauranaturalhome.es/og-image.jpg",
+    "googleAnalytics": "UA-XXXXXXXXX-X"
+  }
+}

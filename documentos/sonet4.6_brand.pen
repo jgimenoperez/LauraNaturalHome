@@ -1,0 +1,2080 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "yGw0U",
+      "x": 0,
+      "y": 0,
+      "name": "Branding Board",
+      "width": 1440,
+      "fill": "#FAF6F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "jIPa8",
+          "name": "Brand Header",
+          "width": "fill_container",
+          "fill": "#2C2416",
+          "gap": 48,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "sQ9UQ",
+              "name": "brandTitle",
+              "fill": "#F5EDD9",
+              "content": "Laura's Natural Home",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32,
+              "fontWeight": "700",
+              "letterSpacing": -1,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "o6DBv",
+              "name": "brandSub",
+              "fill": "#B8A882",
+              "textGrowth": "fixed-width-height",
+              "width": "fill_container",
+              "height": 48,
+              "content": "Diseño de Interiores · Valencia",
+              "textAlign": "right",
+              "textAlignVertical": "middle",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S1vhM",
+          "name": "Color Palette",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "6DBMS",
+              "name": "c1",
+              "width": 160,
+              "height": 160,
+              "fill": "#2C2416",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wl9SW",
+                  "name": "c1label",
+                  "fill": "#B8A882",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Tierra Oscura\n#2C2416",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SZe7P",
+              "name": "c2",
+              "width": 160,
+              "height": 160,
+              "fill": "#7A6A3E",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EejIi",
+                  "name": "c2label",
+                  "fill": "#F5EDD9",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Olivo Dorado\n#7A6A3E",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PAALF",
+              "name": "c3",
+              "width": 160,
+              "height": 160,
+              "fill": "#B8A882",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "58SQD",
+                  "name": "c3label",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Arena Cálida\n#B8A882",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mTaLX",
+              "name": "c4",
+              "width": 160,
+              "height": 160,
+              "fill": "#FAF6F1",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vbvBi",
+                  "name": "c4label",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Lino Natural\n#FAF6F1",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VwdYw",
+              "name": "c5",
+              "width": 160,
+              "height": 160,
+              "fill": "#4A6741",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w84UD",
+                  "name": "c5label",
+                  "fill": "#F5EDD9",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Verde Mediterráneo\n#4A6741",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kyIY6",
+              "name": "c6",
+              "width": 160,
+              "height": 160,
+              "fill": "#D9C9A8",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1CQm5",
+                  "name": "c6label",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Crema Suave\n#D9C9A8",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NIJjN",
+              "name": "c7",
+              "width": 160,
+              "height": 160,
+              "fill": "#FFFFFF",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0D8CC"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BfUKm",
+                  "name": "c7label",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Blanco Puro\n#FFFFFF",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pF8cA",
+          "name": "Typography",
+          "width": "fill_container",
+          "fill": "#FAF6F1",
+          "gap": 80,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "HILBU",
+              "name": "typoLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rZBHB",
+                  "name": "typoLabel1",
+                  "fill": "#B8A882",
+                  "content": "TIPOGRAFÍA PRINCIPAL",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "kXLrg",
+                  "name": "typoHeadline",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Tu hogar,\ntu identidad.",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 56,
+                  "letterSpacing": -1,
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TlS7F",
+              "name": "typoRight",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jwNW9",
+                  "name": "typoLabel2",
+                  "fill": "#B8A882",
+                  "content": "TIPOGRAFÍA SECUNDARIA",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "VtRDX",
+                  "name": "typoBody",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Diseño mediterráneo con alma. Cada espacio es una historia personal que merece ser contada con autenticidad, calidez y atención al detalle.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "frame",
+                  "id": "qdsAV",
+                  "name": "typoCTA",
+                  "width": 220,
+                  "height": 52,
+                  "fill": "#2C2416",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ReeRF",
+                      "name": "typoCTAlabel",
+                      "fill": "#F5EDD9",
+                      "content": "Solicitar Consulta",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uBM3Q",
+                  "name": "typoCTA2",
+                  "width": 220,
+                  "height": 52,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2C2416"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "91lR8",
+                      "name": "typoCTA2label",
+                      "fill": "#2C2416",
+                      "content": "Ver Portafolio →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RXeAI",
+          "name": "Mood & Imagery",
+          "width": "fill_container",
+          "fill": "#2C2416",
+          "gap": 24,
+          "padding": [
+            32,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "09XC8",
+              "name": "moodLabel",
+              "fill": "#B8A882",
+              "textGrowth": "fixed-width-height",
+              "width": "fill_container",
+              "height": 24,
+              "content": "DIRECCIÓN VISUAL — Mediterráneo Natural · Cálido · Auténtico · Sofisticado",
+              "textAlignVertical": "middle",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 1.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ysmjD",
+          "name": "Mood Images",
+          "width": "fill_container",
+          "height": 320,
+          "fill": "#2C2416",
+          "gap": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "PzHDP",
+              "name": "mood1",
+              "metadata": {
+                "type": "unsplash",
+                "username": "john_cameron",
+                "link": "https://unsplash.com/@john_cameron",
+                "author": "John Cameron"
+              },
+              "width": "fill_container",
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1652473509334-dff5f6650598?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI0Njh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ite4U",
+              "name": "mood2",
+              "metadata": {
+                "type": "unsplash",
+                "username": "collovhome",
+                "link": "https://unsplash.com/@collovhome",
+                "author": "Collov Home Design"
+              },
+              "width": "fill_container",
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1600493505873-cddd69453072?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI0Njh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "KMAcP",
+              "name": "mood3",
+              "metadata": {
+                "type": "unsplash",
+                "username": "noukies",
+                "link": "https://unsplash.com/@noukies",
+                "author": "NuKi Chikhladze"
+              },
+              "width": "fill_container",
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1750545337193-db6151602695?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI0Njl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "TgStQ",
+              "name": "mood4",
+              "metadata": {
+                "type": "unsplash",
+                "username": "ninjason",
+                "link": "https://unsplash.com/@ninjason",
+                "author": "Jason Leung"
+              },
+              "width": "fill_container",
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1697228312998-0727a2140d2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI0Njl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "h5ZkZ",
+      "x": 1540,
+      "y": 0,
+      "name": "Landing Page — Laura's Natural Home",
+      "width": 1440,
+      "fill": "#FAF6F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "uyBvG",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FAF6F1",
+          "padding": [
+            0,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sgvSc",
+              "name": "navLogo",
+              "fill": "#2C2416",
+              "content": "Laura's Natural Home",
+              "fontFamily": "Playfair Display",
+              "fontSize": 22,
+              "fontWeight": "700",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "br0jQ",
+              "name": "navLinks",
+              "width": "fill_container",
+              "height": 80,
+              "gap": 40,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eFyIC",
+                  "name": "nl1",
+                  "fill": "#7A6A3E",
+                  "content": "Servicios",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                },
+                {
+                  "type": "text",
+                  "id": "7ijPQ",
+                  "name": "nl2",
+                  "fill": "#7A6A3E",
+                  "content": "Portafolio",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                },
+                {
+                  "type": "text",
+                  "id": "P2Fh3",
+                  "name": "nl3",
+                  "fill": "#7A6A3E",
+                  "content": "Sobre mí",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                },
+                {
+                  "type": "text",
+                  "id": "t7Sab",
+                  "name": "nl4",
+                  "fill": "#7A6A3E",
+                  "content": "Blog",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "It8XR",
+              "name": "navCTA",
+              "width": 180,
+              "height": 44,
+              "fill": "#2C2416",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "E5mOy",
+                  "name": "navCTAlbl",
+                  "fill": "#F5EDD9",
+                  "content": "Contactar",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "QKmAt",
+          "name": "navDivider",
+          "fill": "#E0D8CC",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "119du",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 680,
+          "fill": "#FAF6F1",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z57gM",
+              "name": "Hero Content",
+              "width": 640,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 80,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l4SMN",
+                  "name": "heroTag",
+                  "height": 32,
+                  "fill": "#D9C9A8",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1xvRS",
+                      "name": "heroTagTxt",
+                      "fill": "#2C2416",
+                      "content": "✦ Diseño de Interiores en Valencia",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "510xS",
+                  "name": "heroH1",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "El hogar que\nsiempre\nsoñaste.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 72,
+                  "letterSpacing": -2,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "B27Cd",
+                  "name": "heroPara",
+                  "fill": "#7A6A3E",
+                  "textGrowth": "fixed-width",
+                  "width": 440,
+                  "content": "Transformamos espacios en hogares con alma mediterránea. Acompañamiento personalizado desde el primer detalle hasta el último.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "frame",
+                  "id": "AzvDm",
+                  "name": "heroBtns",
+                  "height": 52,
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ey4p8",
+                      "name": "heroCTAprimary",
+                      "width": 210,
+                      "height": 52,
+                      "fill": "#2C2416",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hzhvp",
+                          "name": "heroCTAprimaryLbl",
+                          "fill": "#F5EDD9",
+                          "content": "Solicitar Asesoría",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "XEiCK",
+                      "name": "heroCTAsec",
+                      "fill": "#7A6A3E",
+                      "content": "Ver proyectos →",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "1sLQE",
+                  "name": "heroTrust",
+                  "fill": "#B8A882",
+                  "content": "+90 proyectos completados · 6 años de experiencia · Valencia & Nacional",
+                  "fontFamily": "Inter",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wZxHt",
+              "name": "Hero Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "conniedevries",
+                "link": "https://unsplash.com/@conniedevries",
+                "author": "Connie de Vries"
+              },
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1731258900495-dbcd1b4cbb24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI1MDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Zz55j",
+          "name": "Services Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "hFWZn",
+              "name": "servHeader",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WZofq",
+                  "name": "servLabelBox",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0Zxk2",
+                      "name": "servLabel",
+                      "fill": "#B8A882",
+                      "content": "NUESTROS SERVICIOS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "pHVbA",
+                      "name": "servTitle",
+                      "fill": "#2C2416",
+                      "textGrowth": "fixed-width",
+                      "width": 560,
+                      "content": "Cada proyecto,\nuna experiencia única.",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 48,
+                      "letterSpacing": -1,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "k5ZNN",
+                  "name": "servDesc",
+                  "fill": "#7A6A3E",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Diseñamos espacios que responden a tus necesidades reales, adaptándonos a tu estilo de vida y personalidad. Con 6 años de experiencia y +90 proyectos realizados, cada cliente recibe un acompañamiento completo y personalizado.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "300"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Dzp36",
+              "name": "servGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PQqde",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "#FAF6F1",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "zj0G9",
+                      "name": "card1icon",
+                      "width": 32,
+                      "height": 32,
+                      "iconFontName": "armchair",
+                      "iconFontFamily": "lucide",
+                      "fill": "#4A6741"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dnUEY",
+                      "name": "card1title",
+                      "fill": "#2C2416",
+                      "content": "Decoración de Interiores",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 24,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EV6EF",
+                      "name": "card1desc",
+                      "fill": "#7A6A3E",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "Transformamos tu hogar en un espacio que refleja tu personalidad. Selección de materiales, paletas de color y mobiliario de alta calidad.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cnZNh",
+                      "name": "card1cta",
+                      "fill": "#2C2416",
+                      "content": "Saber más →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KUACR",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "#2C2416",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "RZ57q",
+                      "name": "card2icon",
+                      "width": 32,
+                      "height": 32,
+                      "iconFontName": "house",
+                      "iconFontFamily": "lucide",
+                      "fill": "#B8A882"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KRVPZ",
+                      "name": "card2title",
+                      "fill": "#F5EDD9",
+                      "content": "Home Staging",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 24,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nbeZi",
+                      "name": "card2desc",
+                      "fill": "#B8A882",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "Preparamos tu vivienda para destacar en el mercado inmobiliario. Más visitas, mejores ofertas y ventas más rápidas.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EY8tK",
+                      "name": "card2cta",
+                      "fill": "#D9C9A8",
+                      "content": "Saber más →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q0G71",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "#4A6741",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hVCrk",
+                      "name": "card3icon",
+                      "width": 32,
+                      "height": 32,
+                      "iconFontName": "message-circle",
+                      "iconFontFamily": "lucide",
+                      "fill": "#D9C9A8"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o0wyv",
+                      "name": "card3title",
+                      "fill": "#F5EDD9",
+                      "content": "Asesorías Online",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 24,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lF8eU",
+                      "name": "card3desc",
+                      "fill": "#D9C9A8",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "Consultas personalizadas online para orientarte en decisiones de decoración sin importar dónde estés. Nacional e internacional.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yBbg7",
+                      "name": "card3cta",
+                      "fill": "#FFFFFF",
+                      "content": "Saber más →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iOgOf",
+          "name": "About Section",
+          "width": "fill_container",
+          "height": 560,
+          "fill": "#2C2416",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qpMtq",
+              "name": "About Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "francotheshooter",
+                "link": "https://unsplash.com/@francotheshooter",
+                "author": "Franco Debartolo"
+              },
+              "width": 600,
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1776482128027-2be8814563eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI1Mzh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "TC2JB",
+              "name": "aboutContent",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 80,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "40LYz",
+                  "name": "aboutLabel",
+                  "fill": "#B8A882",
+                  "content": "SOBRE MÍ",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "auUcz",
+                  "name": "aboutTitle",
+                  "fill": "#F5EDD9",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Laura García,\ndiseñadora de hogares\ncon alma.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "letterSpacing": -1,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "OzC54",
+                  "name": "aboutText",
+                  "fill": "#B8A882",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Con 6 años de experiencia transformando espacios en Valencia y a nivel nacional, mi metodología se basa en el acompañamiento completo: te escucho, entiendo tu estilo de vida y diseño espacios que te hacen sentir bien cada día.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "frame",
+                  "id": "HOrtA",
+                  "name": "aboutStats",
+                  "width": "fill_container",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "10RG5",
+                      "name": "stat1",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m0Ljo",
+                          "name": "stat1num",
+                          "fill": "#F5EDD9",
+                          "content": "+90",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 40,
+                          "letterSpacing": -1,
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "si8EY",
+                          "name": "stat1lbl",
+                          "fill": "#B8A882",
+                          "content": "Proyectos",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "300"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fiuwD",
+                      "name": "stat2",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Rkm5L",
+                          "name": "stat2num",
+                          "fill": "#F5EDD9",
+                          "content": "6",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 40,
+                          "letterSpacing": -1,
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UM5Ma",
+                          "name": "stat2lbl",
+                          "fill": "#B8A882",
+                          "content": "Años de experiencia",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "300"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uyYF4",
+                      "name": "stat3",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8ur6J",
+                          "name": "stat3num",
+                          "fill": "#F5EDD9",
+                          "content": "100%",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 40,
+                          "letterSpacing": -1,
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f9f71",
+                          "name": "stat3lbl",
+                          "fill": "#B8A882",
+                          "content": "Personalizado",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "300"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Df6fK",
+                  "name": "aboutCTA",
+                  "width": 200,
+                  "height": 52,
+                  "fill": "#D9C9A8",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uXNdY",
+                      "name": "aboutCTAlbl",
+                      "fill": "#2C2416",
+                      "content": "Conoce mi historia",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WtU7Y",
+          "name": "Portfolio Section",
+          "width": "fill_container",
+          "fill": "#FAF6F1",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "jOLLB",
+              "name": "portHeader",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UTCyY",
+                  "name": "portLabelCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "whvcO",
+                      "name": "portLabel",
+                      "fill": "#B8A882",
+                      "content": "PORTAFOLIO",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "j80of",
+                      "name": "portTitle",
+                      "fill": "#2C2416",
+                      "textGrowth": "fixed-width",
+                      "width": 540,
+                      "content": "Proyectos que\ncuentan historias.",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 48,
+                      "letterSpacing": -1,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "JdEvJ",
+                  "name": "portViewAll",
+                  "fill": "#4A6741",
+                  "content": "Ver todos los proyectos →",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "elLsl",
+              "name": "portGrid",
+              "width": "fill_container",
+              "height": 440,
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Y4Mvx",
+                  "name": "pCard1",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "tutrananh109",
+                    "link": "https://unsplash.com/@tutrananh109",
+                    "author": "Tu Tran Anh"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1762390629592-812f7affd214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI1NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "vertical",
+                  "padding": 24,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WuV1l",
+                      "name": "pCard1overlay",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "agEsj",
+                          "name": "pCard1cat",
+                          "fill": "#D9C9A8",
+                          "content": "ESTUDIO FOTOGRÁFICO",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "GJCLq",
+                          "name": "pCard1title",
+                          "fill": "#FFFFFF",
+                          "content": "Espacio creativo\ncon luz natural",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oSbbE",
+                  "name": "pCard2",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "alexispresa",
+                    "link": "https://unsplash.com/@alexispresa",
+                    "author": "Alexis Presa"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1767022068550-144fc35225dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI1NjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "vertical",
+                  "padding": 24,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bTsXs",
+                      "name": "pCard2overlay",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HrUaj",
+                          "name": "pCard2cat",
+                          "fill": "#D9C9A8",
+                          "content": "CASA EN PUEBLO",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "1Yryh",
+                          "name": "pCard2title",
+                          "fill": "#FFFFFF",
+                          "content": "Tradición y\nconfort moderno",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N13Q2",
+                  "name": "pCard3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "stachmann",
+                    "link": "https://unsplash.com/@stachmann",
+                    "author": "Richard Stachmann"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1747194507858-ad1b1478d694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI1Njl8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "vertical",
+                  "padding": 24,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bXMiI",
+                      "name": "pCard3overlay",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LgeDU",
+                          "name": "pCard3cat",
+                          "fill": "#D9C9A8",
+                          "content": "VIVIENDA EN ALQUILER",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "JTmNE",
+                          "name": "pCard3title",
+                          "fill": "#FFFFFF",
+                          "content": "Diseño que\natrapa inquilinos",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uk1lf",
+          "name": "Testimonials",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "qg0Lw",
+              "name": "testimHeader",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YGmz9",
+                  "name": "testimLabel",
+                  "fill": "#B8A882",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 20,
+                  "content": "LO QUE DICEN NUESTROS CLIENTES",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "5fxFF",
+                  "name": "testimInstagram",
+                  "height": 36,
+                  "fill": "#FAF6F1",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "j0eo8",
+                      "name": "testimIGicon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#2C2416"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LRRlQ",
+                      "name": "testimIGlbl",
+                      "fill": "#2C2416",
+                      "content": "@laurasnaturalhome",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fNBzW",
+              "name": "testimGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1SZzi",
+                  "name": "t1",
+                  "width": "fill_container",
+                  "fill": "#FAF6F1",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "H7nPB",
+                      "name": "t1stars",
+                      "fill": "#7A6A3E",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gHxMD",
+                      "name": "t1quote",
+                      "fill": "#2C2416",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "&quot;Laura transformó completamente mi salón. No solo escuchó mis ideas, sino que las llevó a otro nivel. El resultado superó todas mis expectativas.&quot;",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "40vvG",
+                      "name": "t1author",
+                      "fill": "#B8A882",
+                      "content": "— María S., Valencia",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eDgLm",
+                  "name": "t2",
+                  "width": "fill_container",
+                  "fill": "#FAF6F1",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GC5Sj",
+                      "name": "t2stars",
+                      "fill": "#7A6A3E",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lD5KT",
+                      "name": "t2quote",
+                      "fill": "#2C2416",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "&quot;El home staging que hizo Laura fue clave para vender nuestro piso en tiempo récord y por encima del precio inicial. Una profesional de verdad.&quot;",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VKX28",
+                      "name": "t2author",
+                      "fill": "#B8A882",
+                      "content": "— Carlos M., Madrid",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zzhhU",
+                  "name": "t3",
+                  "width": "fill_container",
+                  "fill": "#FAF6F1",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lTqSq",
+                      "name": "t3stars",
+                      "fill": "#7A6A3E",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7yY17",
+                      "name": "t3quote",
+                      "fill": "#2C2416",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "&quot;La asesoría online fue perfecta. En una sola sesión resolvió todas mis dudas y me dio un plan claro. Vale muchísimo la pena.&quot;",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mY5k9",
+                      "name": "t3author",
+                      "fill": "#B8A882",
+                      "content": "— Ana L., Barcelona",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1xAJB",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "height": 480,
+          "fill": "#2C2416",
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "lw7xr",
+              "name": "CTA Background",
+              "metadata": {
+                "type": "unsplash",
+                "username": "_elleci",
+                "link": "https://unsplash.com/@_elleci",
+                "author": "Carmen Laezza"
+              },
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1691487225882-3ef26a0a41eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI2MDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Pic31",
+              "name": "CTA Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#2C241699",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 80,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a2Eh0",
+                  "name": "ctaEyebrow",
+                  "fill": "#D9C9A8",
+                  "content": "¿LISTA PARA TRANSFORMAR TU HOGAR?",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "2B7SN",
+                  "name": "ctaTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "Empieza tu proyecto\nhoy mismo.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 64,
+                  "letterSpacing": -2,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "24tzf",
+                  "name": "ctaSub",
+                  "fill": "#B8A882",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Primera consulta gratuita. Sin compromisos.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "frame",
+                  "id": "oN02E",
+                  "name": "ctaBtnsRow",
+                  "height": 56,
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tKvLa",
+                      "name": "ctaMainBtn",
+                      "width": 240,
+                      "height": 56,
+                      "fill": "#D9C9A8",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zI0xT",
+                          "name": "ctaMainLbl",
+                          "fill": "#2C2416",
+                          "content": "Solicitar Consulta Gratis",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nDoy8",
+                      "name": "ctaSecBtn",
+                      "width": 200,
+                      "height": 56,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D9C9A8"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1nxAo",
+                          "name": "ctaSecLbl",
+                          "fill": "#D9C9A8",
+                          "content": "Ver Portafolio →",
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HLasN",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#1A160E",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "0RhL7",
+              "name": "footerMain",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": [
+                64,
+                80
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FMwvT",
+                  "name": "footerBrand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bzGWR",
+                      "name": "footerLogo",
+                      "fill": "#F5EDD9",
+                      "content": "Laura's Natural Home",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "700",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TH0up",
+                      "name": "footerTagline",
+                      "fill": "#7A6A3E",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Diseño de Interiores con alma mediterránea.\nValencia · Nacional · Internacional",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xdo7i",
+                      "name": "footerIG",
+                      "height": 36,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "e1Dv7",
+                          "name": "footerIGicon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#B8A882"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5ZmTK",
+                          "name": "footerIGlbl",
+                          "fill": "#B8A882",
+                          "content": "@laurasnaturalhome",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cO4if",
+                  "name": "footerCol1",
+                  "width": 180,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zemqs",
+                      "name": "footerCol1Title",
+                      "fill": "#B8A882",
+                      "content": "Servicios",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "TEjzj",
+                      "name": "fc1l1",
+                      "fill": "#7A6A3E",
+                      "content": "Decoración de Interiores",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vw0v0",
+                      "name": "fc1l2",
+                      "fill": "#7A6A3E",
+                      "content": "Home Staging",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bbcvw",
+                      "name": "fc1l3",
+                      "fill": "#7A6A3E",
+                      "content": "Asesorías Online",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hLr8p",
+                  "name": "footerCol2",
+                  "width": 180,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vnuFl",
+                      "name": "footerCol2Title",
+                      "fill": "#B8A882",
+                      "content": "Empresa",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "Alwur",
+                      "name": "fc2l1",
+                      "fill": "#7A6A3E",
+                      "content": "Sobre mí",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FKC0N",
+                      "name": "fc2l2",
+                      "fill": "#7A6A3E",
+                      "content": "Portafolio",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0c2Zn",
+                      "name": "fc2l3",
+                      "fill": "#7A6A3E",
+                      "content": "Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hrofl",
+                  "name": "footerCol3",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9KLQw",
+                      "name": "footerCol3Title",
+                      "fill": "#B8A882",
+                      "content": "Contacto",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ox4gF",
+                      "name": "fc3l1",
+                      "fill": "#7A6A3E",
+                      "content": "hola@laurasnaturalhome.es",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CvmwN",
+                      "name": "fc3l2",
+                      "fill": "#7A6A3E",
+                      "content": "Valencia, España",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "300"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EaQAC",
+              "name": "footerBar",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#2C2416",
+              "padding": [
+                0,
+                80
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1vHDu",
+                  "name": "footerCopy",
+                  "fill": "#7A6A3E",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 20,
+                  "content": "© 2025 Laura's Natural Home · Todos los derechos reservados",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "text",
+                  "id": "VNeuU",
+                  "name": "footerCredit",
+                  "fill": "#7A6A3E",
+                  "content": "Diseño web by NaranjaIT",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "300"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

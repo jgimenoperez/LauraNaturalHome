@@ -1,0 +1,1454 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "dWDng",
+      "x": 0,
+      "y": 0,
+      "name": "BRANDING: Laura's Natural Home",
+      "width": 1440,
+      "fill": "#F7F6F3",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": [
+        60,
+        80
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "1OkBE",
+          "name": "section1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "756sl",
+              "name": "titleBrand",
+              "fill": "#2D2D2D",
+              "content": "BRANDING: Laura's Natural Home",
+              "fontFamily": "Fraunces",
+              "fontSize": 40,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "1WrNH",
+              "name": "subtitleBrand",
+              "fill": "#6B6B6B",
+              "content": "Diseño de interiores | Estilo mediterráneo cálido",
+              "fontFamily": "Inter",
+              "fontSize": 18
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8YT24",
+          "name": "section2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "DYOis",
+              "name": "colorTitle",
+              "fill": "#2D2D2D",
+              "content": "PALETA DE COLOR",
+              "fontFamily": "Fraunces",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "ceC5k",
+              "name": "colorGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jNSVv",
+                  "name": "c1",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "doP2Z",
+                      "name": "c1Box",
+                      "fill": "#D4A574",
+                      "width": "fill_container",
+                      "height": 100
+                    },
+                    {
+                      "type": "text",
+                      "id": "XvsPH",
+                      "name": "c1Name",
+                      "fill": "#2D2D2D",
+                      "content": "Tierra Cálida\n#D4A574",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gmrDA",
+                  "name": "c2",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "Z7x4Y",
+                      "name": "c2Box",
+                      "fill": "#8B7355",
+                      "width": "fill_container",
+                      "height": 100
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q9Hk6",
+                      "name": "c2Name",
+                      "fill": "#2D2D2D",
+                      "content": "Madera Natural\n#8B7355",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "COMA2",
+                  "name": "c3",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "Nuok3",
+                      "name": "c3Box",
+                      "fill": "#C9B8A8",
+                      "width": "fill_container",
+                      "height": 100
+                    },
+                    {
+                      "type": "text",
+                      "id": "PMSGf",
+                      "name": "c3Name",
+                      "fill": "#2D2D2D",
+                      "content": "Lino Suave\n#C9B8A8",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tRrLY",
+                  "name": "c4",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "5hZd9",
+                      "name": "c4Box",
+                      "fill": "#7C9070",
+                      "width": "fill_container",
+                      "height": 100
+                    },
+                    {
+                      "type": "text",
+                      "id": "z6xmW",
+                      "name": "c4Name",
+                      "fill": "#2D2D2D",
+                      "content": "Salvia Verde\n#7C9070",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wo9ew",
+                  "name": "c5",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "3uWyr",
+                      "name": "c5Box",
+                      "fill": "#E8D5C4",
+                      "width": "fill_container",
+                      "height": 100
+                    },
+                    {
+                      "type": "text",
+                      "id": "a34MN",
+                      "name": "c5Name",
+                      "fill": "#2D2D2D",
+                      "content": "Pergamino\n#E8D5C4",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aY255",
+          "name": "section3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "sJE7K",
+              "name": "typogTitle",
+              "fill": "#2D2D2D",
+              "content": "TIPOGRAFÍA",
+              "fontFamily": "Fraunces",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "4QYuj",
+              "name": "typogGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tMmp8",
+                  "name": "t1",
+                  "fill": "#8B7355",
+                  "content": "Headlines - Fraunces 500",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "fgW1S",
+                  "name": "t2",
+                  "fill": "#6B6B6B",
+                  "content": "Body - Plus Jakarta Sans 400",
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eeYAa",
+          "name": "section4",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "82dCH",
+              "name": "voiceTitle",
+              "fill": "#2D2D2D",
+              "content": "VOZ & TONO",
+              "fontFamily": "Fraunces",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "HNwea",
+              "name": "voiceList",
+              "fill": "#6B6B6B",
+              "content": "• Cálida y cercana\n• Sofisticada pero accesible\n• Inspiradora y tranquila\n• Personal y genuina",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1DsxV",
+      "x": 1500,
+      "y": 0,
+      "name": "VARIANT 1: Warm Minimal",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FHvro",
+          "name": "hero1",
+          "width": "fill_container",
+          "fill": "#F7F6F3",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "257rx",
+              "name": "heroTitle1",
+              "fill": "#8B7355",
+              "content": "Espacios con alma",
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 64,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "ZLTm4",
+              "name": "heroSub1",
+              "fill": "#6B6B6B",
+              "content": "Diseño de interiores que respira calidez, luz y tu esencia",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20
+            },
+            {
+              "type": "frame",
+              "id": "kqw4o",
+              "name": "heroBtn1",
+              "fill": "#7C9070",
+              "cornerRadius": 10,
+              "gap": 8,
+              "padding": [
+                16,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FdgX2",
+                  "name": "btnText1",
+                  "fill": "#FFFFFF",
+                  "content": "Consulta gratis",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "2SvTV",
+          "name": "about1",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 60,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "qnLtt",
+              "name": "aboutText1",
+              "width": 500,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lYToh",
+                  "name": "aboutTitle1",
+                  "fill": "#8B7355",
+                  "content": "Mi visión",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "TmUpu",
+                  "name": "aboutBody1",
+                  "fill": "#6B6B6B",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Entre Sevilla y Valencia vivo mi esencia. Cada proyecto es un viaje que compartimos contigo.\n\nTu hogar merece más que decoración: necesita alma, propósito, y espacios donde la vida respire.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 12,
+              "id": "I4yEQ",
+              "name": "aboutImg1",
+              "fill": "#D4A574",
+              "width": 400,
+              "height": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DcgMq",
+          "name": "gallery1",
+          "width": "fill_container",
+          "fill": "#F7F6F3",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "GZs2Q",
+              "name": "galleryTitle1",
+              "fill": "#8B7355",
+              "content": "Proyectos destacados",
+              "fontFamily": "Fraunces",
+              "fontSize": 36,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "m7FkB",
+              "name": "galleryGrid1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IGinq",
+                  "name": "proj1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "LoKVD",
+                      "name": "proj1Img",
+                      "fill": "#8B7355",
+                      "width": "fill_container",
+                      "height": 300
+                    },
+                    {
+                      "type": "text",
+                      "id": "qMPLC",
+                      "name": "proj1Name",
+                      "fill": "#2D2D2D",
+                      "content": "Estudio Fotográfico",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "STy1d",
+                  "name": "proj2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "2ketX",
+                      "name": "proj2Img",
+                      "fill": "#C9B8A8",
+                      "width": "fill_container",
+                      "height": 300
+                    },
+                    {
+                      "type": "text",
+                      "id": "qPfhN",
+                      "name": "proj2Name",
+                      "fill": "#2D2D2D",
+                      "content": "Casa Rural",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "56aIu",
+                  "name": "proj3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "NxFxw",
+                      "name": "proj3Img",
+                      "fill": "#7C9070",
+                      "width": "fill_container",
+                      "height": 300
+                    },
+                    {
+                      "type": "text",
+                      "id": "YzIaS",
+                      "name": "proj3Name",
+                      "fill": "#2D2D2D",
+                      "content": "Vivienda Alquiler",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sNc4L",
+          "name": "cta1",
+          "width": "fill_container",
+          "fill": "#8B7355",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "0STYz",
+              "name": "ctaTitle1",
+              "fill": "#FFFFFF",
+              "content": "¿Listo para tu proyecto?",
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 40,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "c8vex",
+              "name": "ctaBtn1",
+              "fill": "#E8D5C4",
+              "cornerRadius": 10,
+              "gap": 8,
+              "padding": [
+                16,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9kUHR",
+                  "name": "ctaBtnText1",
+                  "fill": "#8B7355",
+                  "content": "Contactar ahora",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PlqEL",
+      "x": 3100,
+      "y": 0,
+      "name": "VARIANT 2: Editorial Grid",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "qV2Su",
+          "name": "hero2",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VfVvf",
+              "name": "heroTextArea2",
+              "width": 600,
+              "height": "fill_container",
+              "fill": "#E8D5C4",
+              "layout": "vertical",
+              "gap": 30,
+              "padding": [
+                80,
+                60
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RaeKW",
+                  "name": "heroTag2",
+                  "fill": "#8B7355",
+                  "content": "DISEÑO INTERIOR AUTÉNTICO",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "7wGhG",
+                  "name": "heroTitle2",
+                  "fill": "#2D2D2D",
+                  "content": "Tu hogar, tu historia",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 56,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "p2hlV",
+                  "name": "heroText2",
+                  "fill": "#6B6B6B",
+                  "textGrowth": "fixed-width",
+                  "width": 450,
+                  "content": "6 años creando espacios que abrazan la vida, desde Sevilla hasta Valencia",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "zB5xu",
+              "name": "heroImg2",
+              "fill": "#D4A574",
+              "width": "fill_container",
+              "height": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "deizt",
+          "name": "services2",
+          "width": "fill_container",
+          "fill": "#F7F6F3",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "6zbrw",
+              "name": "servicesTitle2",
+              "fill": "#8B7355",
+              "content": "Nuestros servicios",
+              "fontFamily": "Fraunces",
+              "fontSize": 36,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "MmbEm",
+              "name": "servicesGrid2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H9zVV",
+                  "name": "svc1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wgTrG",
+                      "name": "svc1Title",
+                      "fill": "#8B7355",
+                      "content": "Decoración",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pHEoQ",
+                      "name": "svc1Desc",
+                      "fill": "#6B6B6B",
+                      "content": "Transformamos tu espacio con colores, texturas y detalles que cuentan tu historia",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ftIZv",
+                  "name": "svc2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xk0Yx",
+                      "name": "svc2Title",
+                      "fill": "#8B7355",
+                      "content": "Home Staging",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OkWRD",
+                      "name": "svc2Desc",
+                      "fill": "#6B6B6B",
+                      "content": "Preparamos tu hogar para vender o alquilar con el máximo potencial visual",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O7qMS",
+                  "name": "svc3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6ZRxo",
+                      "name": "svc3Title",
+                      "fill": "#8B7355",
+                      "content": "Asesorías",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6Rrun",
+                      "name": "svc3Desc",
+                      "fill": "#6B6B6B",
+                      "content": "Consultoría online o presencial para orientar tu proyecto desde cero",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Gv1jh",
+          "name": "portfolio2",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "cFw36",
+              "name": "portTitle2",
+              "fill": "#8B7355",
+              "content": "Portfolio",
+              "fontFamily": "Fraunces",
+              "fontSize": 36,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "pLUzI",
+              "name": "portItem1",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 10,
+                  "id": "YDmed",
+                  "name": "portImg1",
+                  "fill": "#8B7355",
+                  "width": 500,
+                  "height": 350
+                },
+                {
+                  "type": "frame",
+                  "id": "ZsMtf",
+                  "name": "portText1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kY5J3",
+                      "name": "portName1",
+                      "fill": "#2D2D2D",
+                      "content": "Estudio Fotográfico",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EOPSI",
+                      "name": "portDesc1",
+                      "fill": "#6B6B6B",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Espacio moderno y funcional que respira creatividad y luz natural",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wJh2G",
+          "name": "cta2",
+          "width": "fill_container",
+          "fill": "#7C9070",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eyMZQ",
+              "name": "ctaTitle2",
+              "fill": "#FFFFFF",
+              "content": "¿Hablamos de tu proyecto?",
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 44,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "A8sLy",
+              "name": "ctaBtn2",
+              "fill": "#E8D5C4",
+              "cornerRadius": 10,
+              "padding": [
+                16,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F3VaO",
+                  "name": "ctaBtnText2",
+                  "fill": "#7C9070",
+                  "content": "Reserva tu consulta",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WRUhY",
+      "x": 4700,
+      "y": 0,
+      "name": "VARIANT 3: Nature Immersive",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "evG6W",
+          "name": "hero3",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            0,
+            0,
+            100,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "1SVJy",
+              "name": "heroBg3",
+              "fill": "#C9B8A8",
+              "width": "fill_container",
+              "height": 600
+            },
+            {
+              "type": "frame",
+              "id": "N3gaz",
+              "name": "heroContent3",
+              "layout": "vertical",
+              "gap": 24,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PwNDV",
+                  "name": "heroTitle3",
+                  "fill": "#8B7355",
+                  "content": "Espacios que abrazan",
+                  "textAlign": "center",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 60,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Ky8ci",
+                  "name": "heroSub3",
+                  "fill": "#6B6B6B",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Desde Sevilla a Valencia. Tu hogar tiene alma",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PhfYe",
+          "name": "statsSection3",
+          "width": "fill_container",
+          "fill": "#F7F6F3",
+          "gap": 60,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BBQpz",
+              "name": "stat1",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Uo1bm",
+                  "name": "stat1Num",
+                  "fill": "#8B7355",
+                  "content": "90+",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "VlLOy",
+                  "name": "stat1Label",
+                  "fill": "#6B6B6B",
+                  "content": "Proyectos completados",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2tTXi",
+              "name": "stat2",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XPmTd",
+                  "name": "stat2Num",
+                  "fill": "#8B7355",
+                  "content": "6",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Wl4o9",
+                  "name": "stat2Label",
+                  "fill": "#6B6B6B",
+                  "content": "Años de experiencia",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WtN0t",
+              "name": "stat3",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g3ulW",
+                  "name": "stat3Num",
+                  "fill": "#8B7355",
+                  "content": "100%",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "EDKhk",
+                  "name": "stat3Label",
+                  "fill": "#6B6B6B",
+                  "content": "Acompañamiento personal",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Hna7a",
+          "name": "values3",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "CCuNh",
+              "name": "valuesTitle3",
+              "fill": "#8B7355",
+              "content": "Cómo trabajo",
+              "fontFamily": "Fraunces",
+              "fontSize": 36,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "mrnsK",
+              "name": "valuesGrid3",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PRRuE",
+                  "name": "val1",
+                  "width": "fill_container",
+                  "fill": "#E8D5C4",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O7uNI",
+                      "name": "val1Icon",
+                      "content": "🤝",
+                      "fontFamily": "Inter",
+                      "fontSize": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "9YsA5",
+                      "name": "val1Title",
+                      "fill": "#8B7355",
+                      "content": "Cercanía",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PzSnz",
+                      "name": "val1Desc",
+                      "fill": "#6B6B6B",
+                      "content": "Te acompaño en cada paso. Tu proyecto es mi proyecto",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uTGQa",
+                  "name": "val2",
+                  "width": "fill_container",
+                  "fill": "#E8D5C4",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "itcty",
+                      "name": "val2Icon",
+                      "content": "✨",
+                      "fontFamily": "Inter",
+                      "fontSize": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "cCuba",
+                      "name": "val2Title",
+                      "fill": "#8B7355",
+                      "content": "Detalles",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TeadA",
+                      "name": "val2Desc",
+                      "fill": "#6B6B6B",
+                      "content": "Cada elemento cuenta una historia y responde a tu esencia",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cVs7f",
+                  "name": "val3",
+                  "width": "fill_container",
+                  "fill": "#E8D5C4",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ojS83",
+                      "name": "val3Icon",
+                      "content": "🎨",
+                      "fontFamily": "Inter",
+                      "fontSize": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "sj4Fd",
+                      "name": "val3Title",
+                      "fill": "#8B7355",
+                      "content": "Autenticidad",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P9e9h",
+                      "name": "val3Desc",
+                      "fill": "#6B6B6B",
+                      "content": "Diseño con alma que refleja quién eres realmente",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3mST6",
+          "name": "showcase3",
+          "width": "fill_container",
+          "fill": "#F7F6F3",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "b8bbG",
+              "name": "showcaseTitle3",
+              "fill": "#8B7355",
+              "content": "Proyectos que hablan por sí solos",
+              "fontFamily": "Fraunces",
+              "fontSize": 36,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "GVPhS",
+              "name": "showcaseGrid3",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iG0r7",
+                  "name": "proj1Card",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "SYaCR",
+                      "name": "proj1Img",
+                      "fill": "#8B7355",
+                      "width": "fill_container",
+                      "height": 280
+                    },
+                    {
+                      "type": "text",
+                      "id": "kY0di",
+                      "name": "proj1Title",
+                      "fill": "#2D2D2D",
+                      "content": "Estudio Fotográfico",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NbHek",
+                  "name": "proj2Card",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "wbCwC",
+                      "name": "proj2Img",
+                      "fill": "#7C9070",
+                      "width": "fill_container",
+                      "height": 280
+                    },
+                    {
+                      "type": "text",
+                      "id": "nfng7",
+                      "name": "proj2Title",
+                      "fill": "#2D2D2D",
+                      "content": "Casa Rural",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SUjyl",
+                  "name": "proj3Card",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "vdkfV",
+                      "name": "proj3Img",
+                      "fill": "#D4A574",
+                      "width": "fill_container",
+                      "height": 280
+                    },
+                    {
+                      "type": "text",
+                      "id": "gU5CF",
+                      "name": "proj3Title",
+                      "fill": "#2D2D2D",
+                      "content": "Vivienda Alquiler",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "2O22T",
+          "name": "finalCta3",
+          "width": "fill_container",
+          "fill": "#7C9070",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 120,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "nHi0y",
+              "name": "ctaText3",
+              "fill": "#FFFFFF",
+              "content": "Tu proyecto merece un espacio con alma",
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 48,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "9HYnd",
+              "name": "ctaBtn3",
+              "fill": "#E8D5C4",
+              "cornerRadius": 10,
+              "gap": 8,
+              "padding": [
+                16,
+                52
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TNzDd",
+                  "name": "ctaBtnText3",
+                  "fill": "#7C9070",
+                  "content": "Comienza tu viaje",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

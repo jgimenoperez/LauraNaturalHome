@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio — Proyectos de decoración mediterránea en Valencia</title>
+  <meta name="description" content="Selección de proyectos de decoración, Home Staging y reformas residenciales en Valencia. Más de 90 proyectos completados.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <a href="index.html" class="logo">
+        <span>L</span>
+        Laura's Natural Home
+      </a>
+      <ul class="nav-list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portafolio.html" class="active">Portafolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Portafolio</span>
+    <h1>Más de noventa hogares, cada uno con su historia</h1>
+    <p>Una selección de proyectos recientes. Filtra por tipología o explora todos.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="display: flex; gap: var(--sm); justify-content: center; flex-wrap: wrap; margin-bottom: var(--xl);">
+      <button class="filter-btn is-active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="decoracion">Decoración</button>
+      <button class="filter-btn" data-filter="staging">Home Staging</button>
+      <button class="filter-btn" data-filter="apartamento">Apartamentos</button>
+      <button class="filter-btn" data-filter="casa">Casas</button>
+      <button class="filter-btn" data-filter="comercial">Comercial</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolio">
+      <div class="portfolio-item" data-category="decoracion casa">
+        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=400&h=400&q=80" alt="Casa en pueblo Requena">
+        <div class="portfolio-overlay">
+          <h4>Casa en un pueblo</h4>
+          <span class="tag">Casa · Requena</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion comercial">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=400&h=400&q=80" alt="Estudio fotográfico">
+        <div class="portfolio-overlay">
+          <h4>Estudio fotográfico</h4>
+          <span class="tag">Comercial · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="staging apartamento">
+        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=400&h=400&q=80" alt="Home Staging vivienda alquiler">
+        <div class="portfolio-overlay">
+          <h4>Vivienda para alquiler</h4>
+          <span class="tag">Home Staging · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion apartamento">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=400&h=400&q=80" alt="Cocina mediterránea">
+        <div class="portfolio-overlay">
+          <h4>Cocina mediterránea</h4>
+          <span class="tag">Apartamento · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion apartamento">
+        <img src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?auto=format&fit=crop&w=400&h=400&q=80" alt="Dormitorio principal">
+        <div class="portfolio-overlay">
+          <h4>Dormitorio principal</h4>
+          <span class="tag">Apartamento · Madrid</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion casa">
+        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=400&h=400&q=80" alt="Detalles mediterráneos">
+        <div class="portfolio-overlay">
+          <h4>Casa de verano</h4>
+          <span class="tag">Casa · Jávea</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion apartamento">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=400&h=400&q=80" alt="Salón comedor">
+        <div class="portfolio-overlay">
+          <h4>Salón con luz mediterránea</h4>
+          <span class="tag">Apartamento · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="staging casa">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=400&h=400&q=80" alt="Casa preparada para venta">
+        <div class="portfolio-overlay">
+          <h4>Chalet en venta</h4>
+          <span class="tag">Home Staging · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion apartamento">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=400&h=400&q=80" alt="Baño contemporáneo">
+        <div class="portfolio-overlay">
+          <h4>Baño con cerámica artesanal</h4>
+          <span class="tag">Apartamento · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion casa">
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&h=400&q=80" alt="Terraza exterior">
+        <div class="portfolio-overlay">
+          <h4>Terraza con vistas</h4>
+          <span class="tag">Casa · Cullera</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion comercial">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&h=400&q=80" alt="Espacio coworking">
+        <div class="portfolio-overlay">
+          <h4>Coworking boutique</h4>
+          <span class="tag">Comercial · Valencia</span>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="decoracion apartamento">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=400&h=400&q=80" alt="Habitación infantil">
+        <div class="portfolio-overlay">
+          <h4>Habitación infantil</h4>
+          <span class="tag">Apartamento · Valencia</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--surface);">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Stats</span>
+      <h2>Por los números</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 600; color: var(--primary); margin-bottom: var(--md);">90+</div>
+        <h3 style="font-size: 1.2rem;">Proyectos completados</h3>
+      </div>
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 600; color: var(--primary); margin-bottom: var(--md);">6</div>
+        <h3 style="font-size: 1.2rem;">Años de experiencia</h3>
+      </div>
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 600; color: var(--primary); margin-bottom: var(--md);">12+</div>
+        <h3 style="font-size: 1.2rem;">Ciudades trabajadas</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--accent); color: white; text-align: center;">
+  <div class="container">
+    <h2 style="color: white; margin-bottom: var(--md);">¿Será tu casa la próxima?</h2>
+    <p style="color: rgba(255,255,255,0.9); margin-bottom: var(--lg);">Cuéntame qué quieres y te explico cómo lo abordaríamos.</p>
+    <a href="contacto.html" class="btn" style="background: white; color: var(--primary); border: none;">Empezar conversación</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo" style="color: white; display: inline-block; margin-bottom: var(--md);">
+          <span>L</span>
+          Laura's Natural Home
+        </a>
+        <p style="color: rgba(255,255,255,0.7); margin-bottom: var(--sm);">Diseño de interiores con alma mediterránea.</p>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Valencia · Online · A donde haga falta</p>
+      </div>
+      <div>
+        <h4 style="color: var(--accent); margin-bottom: var(--md); font-weight: 600;">Estudio</h4>
+        <ul style="list-style: none;">
+          <li style="margin-bottom: var(--sm);"><a href="sobre-mi.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Sobre mí</a></li>
+          <li style="margin-bottom: var(--sm);"><a href="servicios.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Servicios</a></li>
+          <li style="margin-bottom: var(--sm);"><a href="portafolio.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Portafolio</a></li>
+          <li><a href="blog.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color: var(--accent); margin-bottom: var(--md); font-weight: 600;">Contacto</h4>
+        <ul style="list-style: none;">
+          <li style="margin-bottom: var(--sm);"><a href="mailto:hola@lauranaturalhome.es" style="color: rgba(255,255,255,0.7); text-decoration: none;">hola@lauranaturalhome.es</a></li>
+          <li style="margin-bottom: var(--sm);"><a href="tel:+34600000000" style="color: rgba(255,255,255,0.7); text-decoration: none;">+34 600 000 000</a></li>
+          <li style="color: rgba(255,255,255,0.7);">Valencia, España</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color: var(--accent); margin-bottom: var(--md); font-weight: 600;">Newsletter</h4>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: var(--md);">Una carta al mes con ideas para tu hogar.</p>
+        <form style="display: flex; gap: var(--xs);">
+          <input type="email" placeholder="Tu email" required style="flex: 1; padding: var(--sm); border: none; border-radius: 4px;">
+          <button type="submit" style="background: var(--accent); color: white; padding: var(--sm) var(--md); border: none; border-radius: 4px; cursor: pointer; font-weight: 500;">→</button>
+        </form>
+      </div>
+    </div>
+    <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--lg); margin-top: var(--xl); text-align: center; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+      <p>© <span data-year>2026</span> Laura's Natural Home · Hecho con cariño en Valencia</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

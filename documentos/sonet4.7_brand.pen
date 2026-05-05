@@ -1,0 +1,1940 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "T7ris",
+      "x": 8456,
+      "y": -1650,
+      "name": "Component/Button/Primary",
+      "reusable": true,
+      "fill": "$color-primary",
+      "cornerRadius": 8,
+      "padding": [
+        14,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "Mff1h",
+          "name": "label",
+          "fill": "$text-white",
+          "content": "Solicitar Presupuesto",
+          "fontFamily": "Outfit",
+          "fontSize": 15,
+          "fontWeight": "500",
+          "letterSpacing": 0.5
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XVMRU",
+      "x": 8456,
+      "y": -1570,
+      "name": "Component/Button/Outline",
+      "reusable": true,
+      "fill": "transparent",
+      "cornerRadius": 8,
+      "stroke": {
+        "thickness": 1.5,
+        "fill": "$color-primary"
+      },
+      "padding": [
+        14,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "0MtDz",
+          "name": "label",
+          "fill": "$color-primary",
+          "content": "Ver Proyectos",
+          "fontFamily": "Outfit",
+          "fontSize": 15,
+          "fontWeight": "500",
+          "letterSpacing": 0.5
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "KHKcp",
+      "x": 8456,
+      "y": -1470,
+      "name": "Component/Nav",
+      "reusable": true,
+      "width": 1440,
+      "fill": "transparent",
+      "padding": [
+        20,
+        64
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "BGkTt",
+          "name": "logo",
+          "fill": "$text-primary",
+          "content": "Laura's Natural Home",
+          "fontFamily": "Playfair Display",
+          "fontSize": 22,
+          "fontWeight": "600",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "h0o3N",
+          "name": "links",
+          "gap": 36,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "wqIfg",
+              "name": "link1",
+              "fill": "$text-secondary",
+              "content": "Inicio",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "rmaWN",
+              "name": "link2",
+              "fill": "$text-secondary",
+              "content": "Servicios",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "WWPsn",
+              "name": "link3",
+              "fill": "$text-secondary",
+              "content": "Portafolio",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Y9Luy",
+              "name": "link4",
+              "fill": "$text-secondary",
+              "content": "Blog",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "1eXPp",
+              "name": "link5",
+              "fill": "$text-secondary",
+              "content": "Contacto",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "mfcjd",
+              "type": "ref",
+              "ref": "T7ris",
+              "name": "navCta",
+              "descendants": {
+                "Mff1h": {
+                  "content": "Reservar Consulta",
+                  "fontSize": 13
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hvLUf",
+      "x": 8456,
+      "y": -1330,
+      "name": "Component/SectionHeader",
+      "reusable": true,
+      "layout": "vertical",
+      "gap": 12,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "AFLIy",
+          "name": "tagline",
+          "fill": "$color-accent",
+          "content": "NUESTROS SERVICIOS",
+          "fontFamily": "Outfit",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "letterSpacing": 3
+        },
+        {
+          "type": "text",
+          "id": "Sadwo",
+          "name": "title",
+          "fill": "$text-primary",
+          "content": "Diseño con alma mediterránea",
+          "textAlign": "center",
+          "fontFamily": "Playfair Display",
+          "fontSize": 42,
+          "fontWeight": "600",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "Nxjw8",
+          "name": "description",
+          "fill": "$text-secondary",
+          "textGrowth": "fixed-width",
+          "width": 600,
+          "content": "Transformamos espacios en hogares que respiran naturalidad, calidez y bienestar.",
+          "lineHeight": 1.6,
+          "textAlign": "center",
+          "fontFamily": "Outfit",
+          "fontSize": 17,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QWT5z",
+      "x": 8456,
+      "y": -1090,
+      "name": "Component/ServiceCard",
+      "reusable": true,
+      "width": 420,
+      "fill": "$bg-surface",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pdQh0",
+          "name": "image",
+          "width": "fill_container",
+          "height": 280
+        },
+        {
+          "type": "frame",
+          "id": "5bw5a",
+          "name": "body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "Ccw06",
+              "name": "title",
+              "fill": "$text-primary",
+              "content": "Decoración de Interiores",
+              "fontFamily": "Playfair Display",
+              "fontSize": 24,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "2jzIE",
+              "name": "description",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Creamos ambientes únicos que reflejan tu personalidad y estilo de vida.",
+              "lineHeight": 1.6,
+              "fontFamily": "Outfit",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "wckGW",
+              "name": "link",
+              "fill": "$color-primary",
+              "content": "Descubrir más →",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lixAW",
+      "x": 8456,
+      "y": -670,
+      "name": "Component/TestimonialCard",
+      "reusable": true,
+      "width": 420,
+      "fill": "$bg-surface",
+      "stroke": {
+        "thickness": 1,
+        "fill": "$border-subtle"
+      },
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 36,
+      "children": [
+        {
+          "type": "text",
+          "id": "ARX0I",
+          "name": "quote",
+          "fill": "$text-primary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "&quot;Laura transformó nuestra casa en un hogar lleno de luz y calidez. Su atención al detalle es excepcional.&quot;",
+          "lineHeight": 1.6,
+          "fontFamily": "Playfair Display",
+          "fontSize": 17,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "RRcAh",
+          "name": "author",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "74SlS",
+              "name": "avatar",
+              "fill": "$bg-sand",
+              "width": 44,
+              "height": 44
+            },
+            {
+              "type": "frame",
+              "id": "B6CZP",
+              "name": "info",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RAvUH",
+                  "name": "name",
+                  "fill": "$text-primary",
+                  "content": "María García",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kDnZW",
+                  "name": "role",
+                  "fill": "$text-secondary",
+                  "content": "Proyecto residencial en Valencia",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kJQQn",
+      "x": 9196,
+      "y": -1768,
+      "name": "Laura's Natural Home - Landing Page",
+      "width": 1440,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "jqP1u",
+          "type": "ref",
+          "ref": "KHKcp",
+          "width": "fill_container",
+          "name": "nav"
+        },
+        {
+          "type": "frame",
+          "id": "tcYJQ",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 680,
+          "gap": 64,
+          "padding": [
+            0,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "0sHmq",
+              "name": "Hero Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                0,
+                0,
+                0,
+                56
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Qhunk",
+                  "name": "heroTagline",
+                  "fill": "$color-accent",
+                  "content": "INTERIORISMO EN VALENCIA",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "lU1uq",
+                  "name": "heroTitle",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tu hogar merece contar tu historia",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 56,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "G8kJ9",
+                  "name": "heroSubtitle",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Diseño de interiores mediterráneo con materiales naturales, atención personalizada y espacios que respiran bienestar.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Outfit",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "kNXP6",
+                  "name": "CTAs",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "LAsCl",
+                      "type": "ref",
+                      "ref": "T7ris",
+                      "name": "heroCta1",
+                      "descendants": {
+                        "Mff1h": {
+                          "content": "Solicitar Presupuesto"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Yn8k6",
+                      "type": "ref",
+                      "ref": "XVMRU",
+                      "name": "heroCta2",
+                      "descendants": {
+                        "0MtDz": {
+                          "content": "Ver Portafolio"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2zAEr",
+              "name": "Hero Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "ezcurtainlife",
+                "link": "https://unsplash.com/@ezcurtainlife",
+                "author": "EZcurtain Life"
+              },
+              "width": 560,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1754613389131-ea9b5f234cda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI5MTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DbXq6",
+          "name": "Trust Bar",
+          "width": "fill_container",
+          "fill": "$bg-surface",
+          "padding": [
+            32,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wU4tn",
+              "name": "trust1",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2scSs",
+                  "name": "trust1Num",
+                  "fill": "$color-primary",
+                  "content": "+90",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "5vuVP",
+                  "name": "trust1Label",
+                  "fill": "$text-secondary",
+                  "content": "Proyectos completados",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Y6a1Y",
+              "name": "trust2",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KIWyx",
+                  "name": "trust2Num",
+                  "fill": "$color-primary",
+                  "content": "6",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "9oHFk",
+                  "name": "trust2Label",
+                  "fill": "$text-secondary",
+                  "content": "Años de experiencia",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "USfg8",
+              "name": "trust3",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eTGnB",
+                  "name": "trust3Num",
+                  "fill": "$color-primary",
+                  "content": "100%",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "9xrOg",
+                  "name": "trust3Label",
+                  "fill": "$text-secondary",
+                  "content": "Clientes satisfechos",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "j1pFU",
+              "name": "divider",
+              "fill": "$border-subtle",
+              "width": 1,
+              "height": 60
+            },
+            {
+              "type": "frame",
+              "id": "oeAES",
+              "name": "trust4",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xgjrL",
+                  "name": "trust4Num",
+                  "fill": "$color-primary",
+                  "content": "Valencia",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "lDiGi",
+                  "name": "trust4Label",
+                  "fill": "$text-secondary",
+                  "content": "y toda España",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iIQcl",
+          "name": "Services Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "XZj0E",
+              "type": "ref",
+              "ref": "hvLUf",
+              "name": "svcHeader",
+              "descendants": {
+                "AFLIy": {
+                  "content": "NUESTROS SERVICIOS"
+                },
+                "Sadwo": {
+                  "content": "Espacios que inspiran bienestar"
+                },
+                "Nxjw8": {
+                  "content": "Ofrecemos un acompañamiento integral en cada proyecto, desde la primera consulta hasta la entrega final, con atención al detalle y materiales de calidad."
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "RFYvp",
+              "name": "Services Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "hQUXH",
+                  "type": "ref",
+                  "ref": "QWT5z",
+                  "width": "fill_container",
+                  "name": "svc1",
+                  "descendants": {
+                    "pdQh0": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1668011778397-fdf44d10a097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI5NTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ccw06": {
+                      "content": "Decoración de Interiores"
+                    },
+                    "2jzIE": {
+                      "content": "Proyectos completos de decoración residencial. Selección de mobiliario, textiles, iluminación y acabados para crear tu hogar ideal."
+                    },
+                    "wckGW": {
+                      "content": "Descubrir más →"
+                    }
+                  }
+                },
+                {
+                  "id": "rDAJ4",
+                  "type": "ref",
+                  "ref": "QWT5z",
+                  "width": "fill_container",
+                  "name": "svc2",
+                  "descendants": {
+                    "pdQh0": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1723257133428-fc8f16185cf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI5NjB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ccw06": {
+                      "content": "Home Staging"
+                    },
+                    "2jzIE": {
+                      "content": "Preparamos tu vivienda para venta o alquiler, maximizando su atractivo y valor percibido con una inversión mínima."
+                    },
+                    "wckGW": {
+                      "content": "Saber más →"
+                    }
+                  }
+                },
+                {
+                  "id": "wgNwH",
+                  "type": "ref",
+                  "ref": "QWT5z",
+                  "width": "fill_container",
+                  "name": "svc3",
+                  "descendants": {
+                    "pdQh0": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1765371514288-56aea621fbb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI5NjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ccw06": {
+                      "content": "Asesorías de Decoración"
+                    },
+                    "2jzIE": {
+                      "content": "Sesiones personalizadas online o presencial para orientarte en decisiones de decoración, colores, distribución y estilo."
+                    },
+                    "wckGW": {
+                      "content": "Reservar asesoría →"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6lgG8",
+          "name": "Portfolio Section",
+          "width": "fill_container",
+          "fill": "$bg-dark",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "CoKbX",
+              "type": "ref",
+              "ref": "hvLUf",
+              "name": "portHeader",
+              "descendants": {
+                "AFLIy": {
+                  "content": "PORTAFOLIO",
+                  "fill": "$color-accent"
+                },
+                "Sadwo": {
+                  "content": "Proyectos destacados",
+                  "fill": "$text-on-dark"
+                },
+                "Nxjw8": {
+                  "content": "Una selección de nuestros trabajos más representativos en decoración residencial, home staging y espacios comerciales.",
+                  "fill": "#9E9490"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "vzPU4",
+              "name": "Portfolio Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e8uE8",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "height": 400,
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tFw8s",
+                      "name": "Project 1",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "jasonsung",
+                        "link": "https://unsplash.com/@jasonsung",
+                        "author": "Jason Sung"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1616842056214-38e977832dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDI5OTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aEkeh",
+                          "name": "proj1Overlay",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 0,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#00000000",
+                                "position": 0
+                              },
+                              {
+                                "color": "#000000AA",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "layout": "vertical",
+                          "padding": 28,
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IlDGR",
+                              "name": "proj1Title",
+                              "fill": "$text-white",
+                              "content": "Estudio Fotográfico",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 24,
+                              "fontWeight": "600",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PJmQJ",
+                              "name": "proj1Cat",
+                              "fill": "#FFFFFFBB",
+                              "content": "Espacio comercial · Valencia",
+                              "fontFamily": "Outfit",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZPryt",
+                      "name": "Project 2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "passimage",
+                        "link": "https://unsplash.com/@passimage",
+                        "author": "Snap Wander"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1760290015028-30961439b717?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDMwMDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pN9BA",
+                          "name": "proj2Overlay",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 0,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#00000000",
+                                "position": 0
+                              },
+                              {
+                                "color": "#000000AA",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "layout": "vertical",
+                          "padding": 28,
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YABkt",
+                              "name": "proj2Title",
+                              "fill": "$text-white",
+                              "content": "Casa en un Pueblo",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 24,
+                              "fontWeight": "600",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z5zEu",
+                              "name": "proj2Cat",
+                              "fill": "#FFFFFFBB",
+                              "content": "Residencial · Pueblo valenciano",
+                              "fontFamily": "Outfit",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FHFlw",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "height": 320,
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Rc0Pa",
+                      "name": "Project 3",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "glenm",
+                        "link": "https://unsplash.com/@glenm",
+                        "author": "Glen Michaelsen"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1710888451606-dcae196c61a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDMwMDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "93fes",
+                          "name": "proj3Overlay",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 0,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#00000000",
+                                "position": 0
+                              },
+                              {
+                                "color": "#000000AA",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "layout": "vertical",
+                          "padding": 28,
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B457v",
+                              "name": "proj3Title",
+                              "fill": "$text-white",
+                              "content": "Vivienda para Alquiler",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 22,
+                              "fontWeight": "600",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "text",
+                              "id": "5dY2y",
+                              "name": "proj3Cat",
+                              "fill": "#FFFFFFBB",
+                              "content": "Home Staging · Valencia",
+                              "fontFamily": "Outfit",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F7Wx6",
+                      "name": "Project 4",
+                      "clip": true,
+                      "width": 480,
+                      "height": "fill_container",
+                      "fill": "$color-primary",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 40,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4SdP6",
+                          "name": "proj4Text",
+                          "fill": "$text-white",
+                          "textGrowth": "fixed-width",
+                          "width": 300,
+                          "content": "Ver todos los proyectos",
+                          "textAlign": "center",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 28,
+                          "fontWeight": "600",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HEWny",
+                          "name": "proj4Arrow",
+                          "fill": "$text-white",
+                          "content": "→",
+                          "fontFamily": "Outfit",
+                          "fontSize": 32,
+                          "fontWeight": "300"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tzver",
+          "name": "About Section",
+          "width": "fill_container",
+          "gap": 80,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3JdPB",
+              "name": "About Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "mariahkrafft",
+                "link": "https://unsplash.com/@mariahkrafft",
+                "author": "Mariah Krafft"
+              },
+              "clip": true,
+              "width": 480,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1677111105589-18eb5ca22aba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDMwMzN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "356JX",
+              "name": "About Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YqUku",
+                  "name": "aboutTag",
+                  "fill": "$color-accent",
+                  "content": "SOBRE MÍ",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "PSdch",
+                  "name": "aboutTitle",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Laura, diseñadora de espacios que cuentan historias",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "16txy",
+                  "name": "aboutP1",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Con más de 6 años de experiencia en diseño de interiores, mi pasión es transformar espacios en hogares con personalidad. Cada proyecto es una historia única que merece ser contada a través del diseño.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3CfsI",
+                  "name": "aboutP2",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Mi enfoque combina la estética mediterránea con materiales naturales, priorizando siempre el bienestar y la funcionalidad. Acompaño a cada cliente en todo el proceso, cuidando cada detalle para que el resultado supere sus expectativas.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "0PiKJ",
+                  "name": "aboutValues",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pdPiH",
+                      "name": "val1",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "fS50p",
+                          "name": "val1Icon",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "heart",
+                          "iconFontFamily": "lucide",
+                          "fill": "$color-accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zy6HE",
+                          "name": "val1Label",
+                          "fill": "$text-primary",
+                          "content": "Pasión por el detalle",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6R86v",
+                      "name": "val2",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "goc2X",
+                          "name": "val2Icon",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "leaf",
+                          "iconFontFamily": "lucide",
+                          "fill": "$color-accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VXJ27",
+                          "name": "val2Label",
+                          "fill": "$text-primary",
+                          "content": "Materiales naturales",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X3vwg",
+                      "name": "val3",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Cvb3c",
+                          "name": "val3Icon",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "$color-accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vs9nl",
+                          "name": "val3Label",
+                          "fill": "$text-primary",
+                          "content": "Trato personalizado",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "DBT3y",
+                  "type": "ref",
+                  "ref": "T7ris",
+                  "name": "aboutCta",
+                  "descendants": {
+                    "Mff1h": {
+                      "content": "Conocer mi historia"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JlQkZ",
+          "name": "Testimonials Section",
+          "width": "fill_container",
+          "fill": "$bg-surface",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "TyV7V",
+              "type": "ref",
+              "ref": "hvLUf",
+              "name": "testHeader",
+              "descendants": {
+                "AFLIy": {
+                  "content": "TESTIMONIOS"
+                },
+                "Sadwo": {
+                  "content": "Lo que dicen nuestros clientes"
+                },
+                "Nxjw8": {
+                  "content": "La satisfacción de nuestros clientes es nuestra mejor carta de presentación."
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "q3nfH",
+              "name": "Testimonials Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "HhVxd",
+                  "type": "ref",
+                  "ref": "lixAW",
+                  "width": "fill_container",
+                  "name": "test1",
+                  "descendants": {
+                    "ARX0I": {
+                      "content": "&quot;Laura transformó nuestra casa en un hogar lleno de luz y calidez. Su atención al detalle es excepcional y el resultado superó nuestras expectativas.&quot;"
+                    },
+                    "RAvUH": {
+                      "content": "María y Carlos García"
+                    },
+                    "kDnZW": {
+                      "content": "Apartamento en el centro de Valencia"
+                    }
+                  }
+                },
+                {
+                  "id": "zwOAK",
+                  "type": "ref",
+                  "ref": "lixAW",
+                  "width": "fill_container",
+                  "name": "test2",
+                  "descendants": {
+                    "ARX0I": {
+                      "content": "&quot;El home staging que hizo Laura fue clave para vender nuestro piso en tiempo récord. Profesional, creativa y muy cercana.&quot;"
+                    },
+                    "RAvUH": {
+                      "content": "Ana Martínez"
+                    },
+                    "kDnZW": {
+                      "content": "Home Staging · Ruzafa"
+                    }
+                  }
+                },
+                {
+                  "id": "LFtIm",
+                  "type": "ref",
+                  "ref": "lixAW",
+                  "width": "fill_container",
+                  "name": "test3",
+                  "descendants": {
+                    "ARX0I": {
+                      "content": "&quot;La asesoría online fue increíblemente útil. En una hora tenía clarísimo qué hacer con mi salón. Muy recomendable.&quot;"
+                    },
+                    "RAvUH": {
+                      "content": "Pedro Sánchez López"
+                    },
+                    "kDnZW": {
+                      "content": "Asesoría online · Madrid"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zOZCw",
+          "name": "Final CTA Section",
+          "metadata": {
+            "type": "unsplash",
+            "username": "janesca",
+            "link": "https://unsplash.com/@janesca",
+            "author": "Janesca"
+          },
+          "clip": true,
+          "width": "fill_container",
+          "height": 480,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1661647277305-237dd248b33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NDMwODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            96,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "w5NQ2",
+              "name": "ctaOverlay",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#2C242099",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                0,
+                200
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y2ws3",
+                  "name": "ctaTag",
+                  "fill": "$color-accent",
+                  "content": "COMIENZA TU PROYECTO",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "wV7w8",
+                  "name": "ctaTitle",
+                  "fill": "$text-white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "¿Listo para transformar tu hogar?",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 44,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "9DVdw",
+                  "name": "ctaSub",
+                  "fill": "#FFFFFFCC",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Reserva tu primera consulta gratuita y descubre cómo podemos crear juntos el espacio que siempre has soñado.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "NZJVV",
+                  "name": "ctaBtns",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TwHgV",
+                      "name": "ctaBtn1",
+                      "fill": "$color-accent",
+                      "cornerRadius": 8,
+                      "padding": [
+                        16,
+                        36
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8TEw5",
+                          "name": "ctaBtn1Text",
+                          "fill": "$text-white",
+                          "content": "Reservar Consulta Gratuita",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FL8EX",
+                      "name": "ctaBtn2",
+                      "fill": "transparent",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1.5,
+                        "fill": "#FFFFFF88"
+                      },
+                      "padding": [
+                        16,
+                        36
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q7od7",
+                          "name": "ctaBtn2Text",
+                          "fill": "$text-white",
+                          "content": "Contactar",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kMMYx",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg-dark",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            120,
+            32,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "f8A3Y",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zAzRh",
+                  "name": "footerBrand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t5OGS",
+                      "name": "footerLogo",
+                      "fill": "$text-on-dark",
+                      "content": "Laura's Natural Home",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "600",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "my62T",
+                      "name": "footerTagline",
+                      "fill": "#9E9490",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Diseño de interiores mediterráneo en Valencia. Transformamos espacios en hogares con alma.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BPCMp",
+                      "name": "footerSocial",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "ZhsB5",
+                          "name": "igIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9E9490"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "qWuzO",
+                          "name": "mailIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "mail",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9E9490"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "kTP3p",
+                          "name": "phoneIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "phone",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9E9490"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TS8lR",
+                  "name": "footerLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jAE6k",
+                      "name": "col1",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ItnRs",
+                          "name": "col1Title",
+                          "fill": "$text-on-dark",
+                          "content": "Navegación",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5FAIZ",
+                          "name": "col1L1",
+                          "fill": "#9E9490",
+                          "content": "Inicio",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ps9s3",
+                          "name": "col1L2",
+                          "fill": "#9E9490",
+                          "content": "Servicios",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lYYjq",
+                          "name": "col1L3",
+                          "fill": "#9E9490",
+                          "content": "Portafolio",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oenwj",
+                          "name": "col1L4",
+                          "fill": "#9E9490",
+                          "content": "Blog",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1F779",
+                          "name": "col1L5",
+                          "fill": "#9E9490",
+                          "content": "Contacto",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PqpFJ",
+                      "name": "col2",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CGhKY",
+                          "name": "col2Title",
+                          "fill": "$text-on-dark",
+                          "content": "Servicios",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pLgjw",
+                          "name": "col2L1",
+                          "fill": "#9E9490",
+                          "content": "Decoración de interiores",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TVLhK",
+                          "name": "col2L2",
+                          "fill": "#9E9490",
+                          "content": "Home Staging",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TXcIe",
+                          "name": "col2L3",
+                          "fill": "#9E9490",
+                          "content": "Asesorías online",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gwBaG",
+                          "name": "col2L4",
+                          "fill": "#9E9490",
+                          "content": "Consultoría empresas",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WfYzQ",
+                      "name": "col3",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LTkWB",
+                          "name": "col3Title",
+                          "fill": "$text-on-dark",
+                          "content": "Contacto",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wqAdf",
+                          "name": "col3L1",
+                          "fill": "#9E9490",
+                          "content": "Valencia, España",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tzYcg",
+                          "name": "col3L2",
+                          "fill": "#9E9490",
+                          "content": "hola@laurasnaturalhome.com",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UggcZ",
+                          "name": "col3L3",
+                          "fill": "#9E9490",
+                          "content": "@laurasnaturalhome",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "Uu8ri",
+              "name": "footerDivider",
+              "fill": "#3D3632",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "uPNn2",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8dWBP",
+                  "name": "copyright",
+                  "fill": "#7A6F65",
+                  "content": "© 2024 Laura's Natural Home. Todos los derechos reservados.",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "lSrhS",
+                  "name": "madeBy",
+                  "fill": "#7A6F65",
+                  "content": "Diseño web por NaranjaIT",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg-dark": {
+      "type": "color",
+      "value": "#2C2420"
+    },
+    "bg-primary": {
+      "type": "color",
+      "value": "#F5F1EC"
+    },
+    "bg-sand": {
+      "type": "color",
+      "value": "#D4C5B0"
+    },
+    "bg-surface": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#E5DDD3"
+    },
+    "color-accent": {
+      "type": "color",
+      "value": "#C4956A"
+    },
+    "color-olive": {
+      "type": "color",
+      "value": "#7A8B6F"
+    },
+    "color-primary": {
+      "type": "color",
+      "value": "#8B6F4E"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Outfit"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "spacing-lg": {
+      "type": "number",
+      "value": 40
+    },
+    "spacing-md": {
+      "type": "number",
+      "value": 24
+    },
+    "spacing-sm": {
+      "type": "number",
+      "value": 16
+    },
+    "spacing-xl": {
+      "type": "number",
+      "value": 64
+    },
+    "spacing-xs": {
+      "type": "number",
+      "value": 8
+    },
+    "spacing-xxl": {
+      "type": "number",
+      "value": 96
+    },
+    "text-on-dark": {
+      "type": "color",
+      "value": "#F5F1EC"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#2C2420"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#7A6F65"
+    },
+    "text-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}
