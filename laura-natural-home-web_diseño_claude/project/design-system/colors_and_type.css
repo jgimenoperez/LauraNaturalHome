@@ -1,0 +1,314 @@
+/* ==========================================================================
+   Laura Natural Home — Design Tokens
+   Colors, Type, Spacing, Radius, Shadow
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* ---------- Color: raw palette ----------------------------------------- */
+
+  /* Crudo (off-white) — primary surface */
+  --crudo-50:  #FBF7F1;
+  --crudo-100: #F6F0E6;   /* default page bg */
+  --crudo-200: #EFE6D6;
+  --crudo-300: #E5D9C2;
+
+  /* Terracotta — primary brand */
+  --terracotta-50:  #F7E7DD;
+  --terracotta-100: #EFD0BF;
+  --terracotta-300: #D8967A;
+  --terracotta-500: #B45A3C;   /* brand */
+  --terracotta-600: #A14E33;
+  --terracotta-700: #82402A;
+
+  /* Oliva (sage olive) — secondary */
+  --oliva-50:  #EDEBE0;
+  --oliva-100: #DBD8C4;
+  --oliva-300: #A8A581;
+  --oliva-500: #76754F;
+  --oliva-700: #4F4E33;
+
+  /* Tinta (warm near-black) */
+  --tinta-900: #261C14;       /* text */
+  --tinta-800: #3A2D22;
+  --tinta-700: #574437;
+
+  /* Arena (sand neutrals) */
+  --arena-100: #ECE3D2;
+  --arena-200: #DCCFB6;
+  --arena-300: #BFB098;
+  --arena-500: #8A7A63;
+
+  /* Piedra (warm grey) */
+  --piedra-100: #E5E1D9;
+  --piedra-300: #B6AFA1;
+  --piedra-500: #847D6F;
+
+  /* ---------- Color: semantic ------------------------------------------- */
+
+  --bg:        var(--crudo-100);   /* page background */
+  --bg-soft:   var(--crudo-50);    /* card / raised surface */
+  --bg-muted:  var(--crudo-200);   /* muted section background */
+  --bg-deep:   var(--tinta-900);   /* footer, dark sections */
+  --bg-oliva:  var(--oliva-100);   /* secondary section bg */
+
+  --fg:        var(--tinta-900);   /* primary text */
+  --fg-2:      var(--tinta-800);   /* secondary text */
+  --fg-muted:  var(--arena-500);   /* muted / metadata */
+  --fg-on-dark: var(--crudo-50);   /* text on tinta/oliva-700 */
+
+  --brand:        var(--terracotta-500);
+  --brand-hover:  var(--terracotta-600);
+  --brand-active: var(--terracotta-700);
+  --brand-soft:   var(--terracotta-50);
+
+  --border:        var(--arena-200);
+  --border-strong: var(--arena-300);
+  --divider:       var(--arena-100);
+
+  --link:        var(--terracotta-600);
+  --link-hover:  var(--tinta-900);
+
+  --focus-ring: var(--terracotta-500);
+
+  /* ---------- Type ------------------------------------------------------- */
+
+  --font-display: "Cormorant Garamond", "Cormorant", "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Scale (clamped) */
+  --fs-eyebrow: 0.75rem;       /* 12 */
+  --fs-micro:   0.8125rem;     /* 13 */
+  --fs-small:   0.875rem;      /* 14 */
+  --fs-body:    1.0625rem;     /* 17 */
+  --fs-lead:    1.25rem;       /* 20 */
+
+  --fs-h6: 1rem;               /* 16 */
+  --fs-h5: 1.25rem;            /* 20 */
+  --fs-h4: clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem);   /* 22→26 */
+  --fs-h3: clamp(1.75rem, 1.4rem + 1.2vw, 2.25rem);     /* 28→36 */
+  --fs-h2: clamp(2.25rem, 1.6rem + 2.4vw, 3.25rem);     /* 36→52 */
+  --fs-h1: clamp(2.75rem, 1.8rem + 4vw, 4.5rem);        /* 44→72 */
+  --fs-display: clamp(3.5rem, 2rem + 6vw, 6rem);        /* 56→96 */
+
+  --lh-tight: 1.05;
+  --lh-snug:  1.2;
+  --lh-body:  1.55;
+  --lh-loose: 1.7;
+
+  --tracking-tight:    -0.015em;
+  --tracking-normal:    0;
+  --tracking-wide:      0.04em;
+  --tracking-eyebrow:   0.18em;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ---------- Spacing (8px base) ---------------------------------------- */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+  --space-11: 160px;
+
+  --container-max: 1280px;
+  --container-narrow: 880px;
+  --container-prose: 62ch;
+  --gutter: clamp(20px, 4vw, 48px);
+
+  /* ---------- Radius (small, restrained) -------------------------------- */
+
+  --radius-xs: 1px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;        /* chips only */
+
+  /* ---------- Shadow (minimal) ------------------------------------------ */
+
+  --shadow-soft: 0 1px 2px rgba(38, 28, 20, 0.04), 0 8px 24px rgba(38, 28, 20, 0.04);
+  --shadow-lift: 0 2px 4px rgba(38, 28, 20, 0.06), 0 16px 40px rgba(38, 28, 20, 0.06);
+  --shadow-focus: 0 0 0 3px rgba(180, 90, 60, 0.25);
+
+  /* ---------- Motion ---------------------------------------------------- */
+
+  --ease-out:   cubic-bezier(0.4, 0.0, 0.2, 1);
+  --ease-in:    cubic-bezier(0.4, 0.0, 1, 1);
+  --ease-in-out: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  --dur-fast: 200ms;
+  --dur-base: 400ms;
+  --dur-slow: 600ms;
+  --dur-reveal: 700ms;
+}
+
+/* ==========================================================================
+   Semantic element styles
+   ========================================================================== */
+
+html {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body { margin: 0; }
+
+/* Display + headings */
+
+.display, .h-display {
+  font-family: var(--font-display);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-display);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg);
+}
+
+h1, .h1 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  margin: 0 0 var(--space-5);
+}
+
+h2, .h2 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+  margin: 0 0 var(--space-4);
+}
+
+h3, .h3 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-h3);
+  line-height: var(--lh-snug);
+  margin: 0 0 var(--space-4);
+}
+
+h4, .h4 {
+  font-family: var(--font-body);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-h4);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+  margin: 0 0 var(--space-3);
+}
+
+h5, .h5 {
+  font-family: var(--font-body);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-h5);
+  line-height: 1.3;
+  margin: 0 0 var(--space-3);
+}
+
+h6, .h6 {
+  font-family: var(--font-body);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-h6);
+  line-height: 1.3;
+  margin: 0 0 var(--space-3);
+}
+
+p, .p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg-2);
+  margin: 0 0 var(--space-4);
+  text-wrap: pretty;
+  max-width: var(--container-prose);
+}
+
+.lead {
+  font-family: var(--font-body);
+  font-size: var(--fs-lead);
+  line-height: 1.5;
+  font-weight: var(--fw-regular);
+  color: var(--fg);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--fs-eyebrow);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  display: inline-block;
+}
+
+small, .small {
+  font-size: var(--fs-small);
+  color: var(--fg-muted);
+}
+
+blockquote, .pullquote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: var(--fw-light);
+  font-size: var(--fs-h2);
+  line-height: 1.25;
+  color: var(--fg);
+  margin: var(--space-7) 0;
+  padding: 0;
+  border: 0;
+  max-width: 22ch;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: color var(--dur-fast) var(--ease-out),
+              background-size var(--dur-fast) var(--ease-out);
+}
+
+a:hover {
+  color: var(--link-hover);
+  background-size: 100% 1px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--divider);
+  margin: var(--space-7) 0;
+}
+
+::selection {
+  background: var(--terracotta-100);
+  color: var(--tinta-900);
+}
+
+/* Focus */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus);
+  border-radius: var(--radius-sm);
+}
