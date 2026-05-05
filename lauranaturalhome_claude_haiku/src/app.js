@@ -362,11 +362,9 @@ function renderHome() {
         <video
           class="lnh-hero-video"
           autoplay muted loop playsinline
-          poster=""
           oncanplay="this.classList.add('is-loaded')"
           onerror="this.style.display='none'">
-          <source src="assets/videos/hero-mediterraneo.mp4" type="video/mp4">
-          <source src="assets/videos/hero-mediterraneo.webm" type="video/webm">
+          <source src="https://videos.pexels.com/video-files/7578550/7578550-uhd_2560_1440_30fps.mp4" type="video/mp4">
         </video>
 
         <!-- CSS gradient fallback (shows when no video file) -->
